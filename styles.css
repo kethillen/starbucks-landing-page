@@ -7,9 +7,14 @@
 }
 
 body {
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+   padding-top: 20px;
+   padding-right: 5vw;
+   padding-left: 5vw;
+}
+
+.logo, .starbucks {
+  max-width: 100%;
+  height: auto;
 }
 
 .conteudo {
@@ -86,7 +91,7 @@ button:focus {
 }
 .circulo {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background: #017143;
     position: absolute;
     top: 0;
@@ -112,7 +117,7 @@ button:focus {
 }
 
 .starbucks {
-    width: 370px;
+    width: 350px;
 }
 
 @media (max-width: 900px) {
@@ -125,6 +130,8 @@ button:focus {
   .caixa-texto,
   .caixa-imagem {
     width: 100%;
+    min-width: 280px;
+    max-width: 600px;
   }
 
   h1 {
@@ -142,8 +149,15 @@ button:focus {
 }
 
 @media (max-width: 600px) {
-  body {
-    padding: 20px;
+  
+    body {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .caixa-texto,
+  .caixa-imagem {
+    width: 100%;
   }
 
   h1 {
@@ -157,10 +171,14 @@ button:focus {
 
   p {
     font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .starbucks {
-    width: 200px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   .botao-menu {
@@ -169,6 +187,11 @@ button:focus {
 
   .menu {
     margin-top: 100px;
+  }
+
+  .circulo {
+    clip-path: circle(30% at right 50%);
+    height: 50vh;
   }
 }
 
