@@ -120,17 +120,15 @@ button:focus {
     width: 350px;
 }
 
-@media (max-width: 900px) {
+
+@media (max-width: 1024px) {
   .conteudo {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
-  .caixa-texto,
-  .caixa-imagem {
+  .caixa-texto, .caixa-imagem {
     width: 100%;
-    min-width: 280px;
     max-width: 600px;
   }
 
@@ -142,22 +140,20 @@ button:focus {
     font-size: 50px;
   }
 
-  .caixa-imagem {
-    margin-top: 100px;
-    justify-content: center;
+  .starbucks {
+    width: 300px;
+  }
+
+  .circulo {
+    clip-path: circle(40% at right 30%);
+    height: 70vh;
   }
 }
 
-@media (max-width: 600px) {
-  
-    body {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
 
-  .caixa-texto,
-  .caixa-imagem {
-    width: 100%;
+@media (max-width: 600px) {
+  body {
+    padding: 20px 15px;
   }
 
   h1 {
@@ -173,6 +169,10 @@ button:focus {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+   .conteudo {
+    margin-top: 30px;
   }
 
   .starbucks {
@@ -194,6 +194,3 @@ button:focus {
     height: 50vh;
   }
 }
-
-
-
