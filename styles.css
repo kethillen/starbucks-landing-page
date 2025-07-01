@@ -191,6 +191,6 @@ button:focus {
 
   .circulo {
     clip-path: circle(30% at right 50%);
-    height: 50vh;
+    height: 110vh;
   }
 }
