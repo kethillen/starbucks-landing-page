@@ -96,7 +96,7 @@ button:focus {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(50% at right 20%);
+    clip-path: circle(40% at right 20%);
     z-index: -1;
     transition: background-color 0.5s ease;
 }
@@ -104,7 +104,7 @@ button:focus {
 .menu {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .botao-menu:hover {
